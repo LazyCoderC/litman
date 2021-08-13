@@ -11,7 +11,6 @@ module Litman
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
     config.hosts << "lvh.me"
-    config.time_zone = 'Beijing'
 
     # Configuration for the application, engines, and railties goes here.
     #
