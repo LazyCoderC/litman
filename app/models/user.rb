@@ -6,4 +6,6 @@ class User < ApplicationRecord
   validates :password, presence: true, length: { maximum: 255 }
   validates :name, presence: true, length: { maximum: 255 }
   validates :status, inclusion: { in: %w(active inactive) }
+
+  has_many :articles
 end
